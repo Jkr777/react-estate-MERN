@@ -1,0 +1,46 @@
+.footer-container {
+  @include page-padding;
+  background-color: $color1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__nav {
+    color: $color3;
+    font-weight: bold;
+    padding: 5rem 0 1rem 0;
+
+    &__link {
+      color: $color3;
+      padding: $space2 $space3;
+
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: all .2s;
+    }
+
+    &__link--active {
+      color: $color1;
+      background-color: $color3;
+      padding: $space2 $space3;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    &__link:hover {
+      color: $color1;
+      background-color: $color3;
+    }
+
+    @include respond(maxim-width) {
+      width: 1230px;
+      margin: 0 auto;
+    }
+  }
+
+  &__copyright {
+    color: $color3;
+    align-self: flex-end;
+    padding-bottom: $space3;
+  }
+}

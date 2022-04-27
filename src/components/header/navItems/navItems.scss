@@ -1,12 +1,17 @@
 .link {
   color: $color3;
   text-decoration: none;
+  padding: $space2 $space3;
+  transition: all .2s;
   &--active {
-    color: $color2;
+    color: $color1;
     text-decoration: none;
+    background-color: $color3;
+    padding: $space2 $space3;
   }
 
   &:hover {
-    color: $color2;
+    color: $color1;
+    background-color: $color3;
   }
 }
