@@ -6,5 +6,21 @@
 
 :root {
   font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: $color3;
+  color: $color7;
+
+  @include respond(maxim-width) {
+    width: 1350px;
+    margin: 0 auto;
+  }
+}
+
+.main {
+  padding-top: 8.2rem;
+  min-height: 80vh;
 }

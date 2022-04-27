@@ -1,0 +1,10 @@
+// iphone-plus // 420px
+// iphone // 375px
+// galaxy // 360px
+// galaxy-fold // 280px
+
+@mixin respond($breakpoint){
+  @if $breakpoint == maxim-width {
+    @media only screen and(min-width: 1350px) { @content };
+  }
+}
