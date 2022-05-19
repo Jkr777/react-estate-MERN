@@ -1,0 +1,14 @@
+.moreInfo-container {
+  @include page-padding;
+  
+  &__title {
+    @include sub-title;
+    margin-bottom: $space5;
+  }
+
+  &__features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

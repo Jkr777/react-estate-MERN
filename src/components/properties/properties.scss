@@ -1,0 +1,7 @@
+.properties-container__list {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: $space5;
+  margin-bottom: $space5;
+}

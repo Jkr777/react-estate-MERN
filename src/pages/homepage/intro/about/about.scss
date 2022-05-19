@@ -1,0 +1,24 @@
+.about-container {
+  width: 70%;
+  padding: $space6;
+  background-image: linear-gradient(
+    to right bottom, 
+    rgba(4,26,64,.6), 
+    rgba(4,26,64,.9)), url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+  &__title {
+    margin-top: 20%;
+    @include title;
+    color: $color3;
+    margin-bottom: $space5;
+  }
+
+  &__info {
+    color: $color4;
+    margin-bottom: $space4;
+  }
+}

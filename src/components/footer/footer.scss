@@ -7,13 +7,11 @@
 
   &__nav {
     color: $color3;
-    font-weight: bold;
     padding: 5rem 0 1rem 0;
 
     &__link {
       color: $color3;
       padding: $space2 $space3;
-
       text-decoration: none;
       text-transform: uppercase;
       transition: all .2s;

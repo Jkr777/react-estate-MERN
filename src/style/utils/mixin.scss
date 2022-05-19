@@ -2,6 +2,27 @@
   padding: 0 $space6;
 }
 
+@mixin title {
+  font-weight: bold;
+  font-size: $size5;
+  text-transform: uppercase;
+}
+
+@mixin sub-title {
+  font-weight: bold;
+  font-size: $size4;
+  text-transform: uppercase;
+}
+
+@mixin btn {
+  width: 27rem;
+  font-size: $size3;
+  padding: $space3 $space5;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 // iphone-plus // 420px
 // iphone // 375px
 // galaxy // 360px

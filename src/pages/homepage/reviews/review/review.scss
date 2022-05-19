@@ -1,0 +1,13 @@
+.review-container {
+  margin-top: $space5;
+
+  &__text {
+    font-style: italic;
+    margin-bottom: $space3;
+  }
+
+  &__personal {
+    display: block;
+    text-align: left;
+  }
+}

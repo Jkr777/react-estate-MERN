@@ -1,9 +1,21 @@
 @import './utils/var.scss';
 @import './utils/mixin.scss';
 @import './utils/reusable.scss';
+@import './utils/btns.scss';
 
 @import '../components/header/header.scss';
 @import '../components/header/navItems/navItems.scss';
+@import '../components/properties/properties.scss';
+@import '../components/properties/property/property.scss';
+@import '../pages/homepage/intro/intro.scss';
+@import '../pages/homepage/intro/about/about.scss';
+@import '../pages/homepage/intro/cities/cities.scss';
+@import '../pages/homepage/intro/cities/city/city.scss';
+@import '../pages/homepage/moreInfo/moreInfo.scss';
+@import '../pages/homepage/moreInfo/feature/feature.scss';
+@import '../pages/homepage/reviews/reviews.scss';
+@import '../pages/homepage/reviews/review/review.scss';
+@import '../pages/homepage/propertiesSection/propertiesSection.scss';
 
 @import '../components/footer/footer.scss';
 @import './base.scss';

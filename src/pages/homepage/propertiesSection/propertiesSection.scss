@@ -1,0 +1,9 @@
+.propertiesSection-container {
+  @include page-padding;
+  margin-bottom: 3rem;
+  
+  &__title {
+    @include sub-title;
+    display: block;
+  }
+}
