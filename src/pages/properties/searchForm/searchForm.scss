@@ -1,0 +1,17 @@
+.searchForm-container {
+  margin-bottom: $space5;
+  
+  &__nav {
+    background-color: $color1;
+    padding: $space3;
+    display: flex;
+    justify-content: center;
+    margin-bottom: $space3;
+
+    &__input {
+      padding: $space1 $space2;
+      border: none;
+      margin-right: $space3;
+    }
+  }
+}

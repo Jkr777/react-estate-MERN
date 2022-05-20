@@ -5,8 +5,8 @@
 
 @import '../components/header/header.scss';
 @import '../components/header/navItems/navItems.scss';
-@import '../components/properties/properties.scss';
-@import '../components/properties/property/property.scss';
+@import '../components/propertiesList/propertiesList.scss';
+@import '../components/propertiesList/property/property.scss';
 @import '../pages/homepage/intro/intro.scss';
 @import '../pages/homepage/intro/about/about.scss';
 @import '../pages/homepage/intro/cities/cities.scss';
@@ -16,6 +16,8 @@
 @import '../pages/homepage/reviews/reviews.scss';
 @import '../pages/homepage/reviews/review/review.scss';
 @import '../pages/homepage/propertiesSection/propertiesSection.scss';
+@import '../pages/properties/properties.scss';
+@import '../pages/properties/searchForm/searchForm.scss';
 
 @import '../components/footer/footer.scss';
 @import './base.scss';

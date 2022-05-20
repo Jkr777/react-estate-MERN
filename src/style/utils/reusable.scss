@@ -15,4 +15,8 @@
   color: $color14;
   text-decoration: none;
   text-align: center;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

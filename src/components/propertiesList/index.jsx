@@ -1,11 +1,11 @@
 import Property from "./property";
 
-function Properties({ list }) {  
+function PropertiesList({ list }) {  
   return (
-    <div className="properties-container__list">
+    <div className="propertiesList-container">
       {list.map(p => <Property key={p._id} {...p} />)}
     </div>
   );
 }
 
-export default Properties;
+export default PropertiesList;

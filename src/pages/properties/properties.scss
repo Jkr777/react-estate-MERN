@@ -1,0 +1,10 @@
+.properties-container {
+  @include page-padding;
+  margin: 3rem 0;
+  
+  &__title {
+    @include sub-title;
+    margin-bottom: $space3;
+    display: block;
+  }
+}

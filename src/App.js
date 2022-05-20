@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 
 const Homepage = lazy(() => import('./pages/homepage'));
 const Properties = lazy(() => import('./pages/properties'));
+const Property = lazy(() => import('./pages/property'));
 const Contact = lazy(() => import('./pages/contact'));
 const Info = lazy(() => import('./pages/info'));
 
@@ -16,7 +17,8 @@ function App() {
       <Suspense fallback={<h1>...loading</h1>}>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/properties/:id" element={<Properties />} />
+        <Route path="/properties" element={<Properties />} />
+        <Route path="/properties/:id" element={<Property />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/info/:id" element={<Info />} />
         <Route path="/*" element={<Navigate replace to="/" />} />
