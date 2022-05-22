@@ -1,0 +1,81 @@
+.propertyPage-container {
+  @include page-padding;
+  margin: 3rem 0;
+  color: $color6;
+
+  &__intro {
+    @include propertyContainer;
+
+    &__address {
+      font-size: $size4;
+      font-weight: bold;
+    }
+
+    &__price {
+      font-size: $size4;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    margin-bottom: $space5;
+
+    &__gallery--container {
+      width: 70rem;
+      margin-right: $space5;
+    }
+
+    &__galery {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__description {
+    @include propertyContainer;
+
+    &__title {
+      font-size: $size3;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+
+  &__features {
+    @include propertyContainer;
+    margin-bottom: 3rem;
+
+    &__title {
+      font-size: $size3;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    &__feature {
+      background-color: $color3;
+      padding: $space2;
+      font-weight: bold;
+      margin: $space2;
+      display: inline-block;
+      text-transform: capitalize;
+    }
+  }
+
+  &__hLine {
+    margin: $space3 0;
+    border: none;
+    border-bottom: solid .3rem $color10;
+  }
+}
+
+.image-gallery-image {
+  height: 50rem !important;
+}
+
+.image-gallery-thumbnail-image {
+  height: 10rem !important;
+}
+
+.leaflet-container {
+  height: 50rem;
+}

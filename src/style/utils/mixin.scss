@@ -23,6 +23,12 @@
   text-transform: uppercase;
 }
 
+@mixin propertyContainer {
+  background-color: $color13;
+  padding: $space3;
+  margin-bottom: $space5;
+}
+
 // iphone-plus // 420px
 // iphone // 375px
 // galaxy // 360px

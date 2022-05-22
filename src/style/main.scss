@@ -1,3 +1,4 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
 @import './utils/var.scss';
 @import './utils/mixin.scss';
 @import './utils/reusable.scss';
@@ -18,6 +19,8 @@
 @import '../pages/homepage/propertiesSection/propertiesSection.scss';
 @import '../pages/properties/properties.scss';
 @import '../pages/properties/searchForm/searchForm.scss';
+@import '../pages/property/property.scss';
+@import '../pages/property/requestForm/requestForm.scss';
 
 @import '../components/footer/footer.scss';
 @import './base.scss';

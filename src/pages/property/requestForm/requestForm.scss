@@ -1,0 +1,39 @@
+.requestForm-container {
+  background-color: $color13;
+  padding: $space3 $space5;
+ 
+  &__title {
+    font-size: $size3;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+  }
+
+  &__terms {
+    font-size: $size1;
+  }
+}
+
+.requestForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $space5;
+  align-items: center;
+  
+  &__input {
+    border: solid .2rem #007759;
+    padding: .8rem;
+    margin-bottom: $space4;
+    width: 25rem;
+  }
+
+  &__textArea {
+    width: 25rem;
+    height: 5rem;
+    resize: none;
+    padding: .8rem;
+    font-family: inherit;
+    border: solid .2rem #007759;
+    margin-bottom: $space4;
+  }
+}
