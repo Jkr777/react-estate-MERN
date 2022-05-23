@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet';
 import ImageGallery from 'react-image-gallery';
 import numeral from "numeral";
-import RequestForm from "./requestForm";
+import RequestForm from "../../components/requestForm";
 
 function Property() {
   const { _id, price, bedrooms, bathrooms, size, city, address, coordinates, description, img, features } = useSelector(state => state.property);

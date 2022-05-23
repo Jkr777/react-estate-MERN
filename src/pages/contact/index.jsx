@@ -1,7 +1,9 @@
+import RequestForm from "../../components/requestForm";
+
 function Contact() {
   return (
-    <section>
-      Contact
+    <section className="contact-container">
+      <RequestForm />
     </section>
   );
 }
